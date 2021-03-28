@@ -1,0 +1,26 @@
+.header{
+    height: 80px;
+    width: 100%;
+    background: aquamarine;
+    display: flex;
+}
+
+.header__title{
+    color: #fff;
+    display: flex;
+    flex: 0.7;
+    align-items: center;
+}
+
+.header__title h2{
+    margin-left: 5%;
+}
+
+.header__itemCount{
+    color: #fff;
+    display: flex;
+    flex: 0.3;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
